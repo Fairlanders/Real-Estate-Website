@@ -5,6 +5,8 @@
  Can not be copied without permisson! -->
 
 <head>
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Volkhov" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
@@ -48,9 +50,9 @@
         <!--Collapse Button-->
         <button id="bars" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburger">
             <a class="fancy-menu" href="#">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span class="spanx"></span>
+                <span class="spanx"></span>
+                <span class="spanx"></span>
             </a>
         </button>
 
@@ -76,7 +78,7 @@
         </div>
     </nav>
     <!--Slider-->
-    <div class="Slide">
+    <div class="Slide top">
         <div id="slider2" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#slider2" data-slide-to="0" class="active"></li>
@@ -88,9 +90,9 @@
             <!--First slider-->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <a href="#">
+                    
                         <img class="d-block w-100" src="./Favicon-Photos/slide1.png" alt="Şekerbey Gayrimenkul">
-                    </a>
+                    
                     <div class="carousel-caption ">
                         <h5 class="carousel-text">Yeni Bir Yaşam Biçimi Sunuyoruz</h5>
 
@@ -99,9 +101,9 @@
                 </div>
                 <!--Second slider-->
                 <div class="carousel-item">
-                    <a href="#">
+                    
                         <img class="d-block w-100" src="./Favicon-Photos/slide2.jpg" alt="Şekerbey Gayrimenkul">
-                    </a>
+                    
                     <div class="carousel-caption ">
                         <h5 class="carousel-text">Size Özel Fiyatlarla Villalar</h5>
 
@@ -109,9 +111,9 @@
                 </div>
                 <!--Third slider-->
                 <div class="carousel-item">
-                    <a href="#">
+                    
                         <img class="d-block w-100" src="./Favicon-Photos/slide3.jpg" alt="Şekerbey Gayrimenkul">
-                    </a>
+                    
                     <div class="carousel-caption ">
                         <h5 class="carousel-text">Kiralık ve Satılık Daireler</h5>
 
@@ -119,9 +121,9 @@
                 </div>
                 <!--Fourth slider-->
                 <div class="carousel-item">
-                    <a href="#">
+                    
                         <img class="d-block w-100" src="./Favicon-Photos/slide4.jpg" alt="Şekerbey Gayrimenkul">
-                    </a>
+                    
                     <div class="carousel-caption ">
                         <h5 class="carousel-text">Birbirinden Verimli Arsalar</h5>
 
@@ -129,9 +131,9 @@
                 </div>
                 <!--Fifth slider-->
                 <div class="carousel-item">
-                    <a href="#">
+                    
                         <img class="d-block w-100" src="./Favicon-Photos/slide5.jpg" alt="Şekerbey Gayrimenkul">
-                    </a>
+                    
                     <div class="carousel-caption">
                         <h5 class="carousel-text">Sıfır Ve Ikinci El Otomobiller</h5>
 
@@ -140,23 +142,20 @@
             </div>
             <!--Slider control-->
             <a href="#slider2" class="carousel-control-prev" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
+                <span class="carousel-control-prev-icon"><i class="fas fa-arrow-left fa-2x slider-chevron"></i></span>
             </a>
             <a href="#slider2" class="carousel-control-next" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
+                <span class="carousel-control-next-icon"><i class="fas fa-arrow-right fa-2x slider-chevron"></i></span>
             </a>
         </div>
     </div>
-
-    <div class="upper-middles-top">
-
-    </div>
     <div class="upper-middle-picture">
-        <div data-aos="zoom-in" data-aos-duration="500" class="svg-wrapper">
+        <div id="left-button">
+        <div data-aos="zoom-in" data-aos-duration="1500" class="svg-wrapper">
             <svg height="40" width="150">
                 <rect id="shape" height="40" width="150" />
                 <div id="text">
-                    <a href="">
+                    <a href="#">
                         <span class="button-anchor">Daha Fazlası</span>
                         <span class="spot">
                         </span>
@@ -164,45 +163,92 @@
                 </div>
             </svg>
         </div>
-        <div data-aos-duration="1000" data-aos="flip-right" class="upper-middle-div">
-            <span id="div-span">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec leo tortor, aliquam ut velit nec,
-                dignissim venenatis sapien. Vestibulum dictum massa at ipsum luctus tristique. Mauris fermentum ipsum
-                quam, vitae posuere urna consectetur in. Phasellus gravida nec justo eu eleifend. Fusce eget tortor at
-                arcu pharetra porta. Vivamus finibus laoreet magna at pellentesque. Nam sit amet dui luctus, dictum est
-                nec, pellentesque nibh. Phasellus et tellus porta, efficitur ipsum a, molestie dui.
-            </span>
+    </div>
+        <div data-aos-duration="3000" data-aos="flip-right" class="sub-div">
+            <i class="fas fa-arrow-circle-right fa-2x"></i>
+            <div  class="under-div">First Statement</div>
+            <i  class="fas fa-arrow-circle-right fa-2x"></i>
+            <div  class="under-div">Second Statement</div>
+            <i  class="fas fa-arrow-circle-right fa-2x"></i>
+            <div  class="under-div">Third Statement</div>
+            <i  class="fas fa-arrow-circle-right fa-2x"></i>
+            <div  class="under-div">Fourth Statement</div>
+            <i  class="fas fa-arrow-circle-right fa-2x"></i>
+            <div  class="under-div">Fifth Statement</div>
+            <i  class="fas fa-arrow-circle-right fa-2x"></i>
+            <div  class="under-div">Sixth Statement</div>
         </div>
     </div>
-    <div class="upper-middles-bottom">
-
+    <div class="content-realestate">
+        <ul id="ul-content">
+            <div data-aos-duration="4000" data-aos="fade-up" class="li-div">
+                <li class="content">
+                        <div class="underscore-div">
+                                <i class="fas fa-flask fa-6x flexbox-item" data-aos-duration="2000" data-aos="fade-right"></i></div>
+                                <br>
+                        <span>Title</span>
+                        <br>
+                        <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta tincidunt arcu at
+                    vehicula. Maecenas lacinia nec leo eu porta. Maecenas sodales elementum nibh et lacinia.
+                    Pellentesque consequat est ac posuere interdum. Nunc et risus non turpis sollicitudin dignissim.
+                    Donec id dui venenatis, sollicitudin ante non, fringilla tortor. Morbi eu elit et nulla lobortis
+                    egestas a in neque. Cras rutrum, velit vel pulvinar porta, dui urna eleifend lectus, vitae volutpat
+                    mauris nisl eget quam. Suspendisse feugiat laoreet scelerisque. Mauris et viverra magna, sit amet
+                    venenatis eros. Suspendisse potenti. Aliquam neque sem, porttitor id pharetra sed, ultrices sed
+                    libero. Ut semper leo at elit eleifend, sed mollis ex aliquet. Vestibulum elementum efficitur est
+                    ac mattis.</li>
+            </div>
+            <div data-aos-duration="4000" data-aos="fade-up" class="li-div main-div-for-margin">
+                <li class="content">
+                        <span><div class="underscore-div">
+                                <i class="fas fa-search fa-6x flexbox-item" data-aos-duration="2000" data-aos="fade-up"></i></div>
+                                <br>
+                        <span>Title</span>
+                        <br>
+                        <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta tincidunt arcu at
+                    vehicula. Maecenas lacinia nec leo eu porta. Maecenas sodales elementum nibh et lacinia.
+                    Pellentesque consequat est ac posuere interdum. Nunc et risus non turpis sollicitudin dignissim.
+                    Donec id dui venenatis, sollicitudin ante non, fringilla tortor. Morbi eu elit et nulla lobortis
+                    egestas a in neque. Cras rutrum, velit vel pulvinar porta, dui urna eleifend lectus, vitae volutpat
+                    mauris nisl eget quam. Suspendisse feugiat laoreet scelerisque. Mauris et viverra magna, sit amet
+                    venenatis eros. Suspendisse potenti. Aliquam neque sem, porttitor id pharetra sed, ultrices sed
+                    libero. Ut semper leo at elit eleifend, sed mollis ex aliquet. Vestibulum elementum efficitur est
+                    ac mattis.</li>
+            </div>
+            <div data-aos-duration="4000" data-aos="fade-left" class="li-div">
+                <li class="content">
+                        <div class="underscore-div">
+                                <i class="fas fa-handshake fa-6x flexbox-item xd" data-aos-duration="2000" data-aos="fade-left"></i></div>
+                                <br>
+                        <span>Title</span>
+                        <br>
+                        <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta tincidunt arcu at
+                    vehicula. Maecenas lacinia nec leo eu porta. Maecenas sodales elementum nibh et lacinia.
+                    Pellentesque consequat est ac posuere interdum. Nunc et risus non turpis sollicitudin dignissim.
+                    Donec id dui venenatis, sollicitudin ante non, fringilla tortor. Morbi eu elit et nulla lobortis
+                    egestas a in neque. Cras rutrum, velit vel pulvinar porta, dui urna eleifend lectus, vitae volutpat
+                    mauris nisl eget quam. Suspendisse feugiat laoreet scelerisque. Mauris et viverra magna, sit amet
+                    venenatis eros. Suspendisse potenti. Aliquam neque sem, porttitor id pharetra sed, ultrices sed
+                    libero. Ut semper leo at elit eleifend, sed mollis ex aliquet. Vestibulum elementum efficitur est
+                    ac mattis.</li>
+            </div>
+        </ul>
     </div>
-    <div class="middle">
-        <!-- DATALARI EKLE VE HEPSİNE GÜZEL DÜZEN VER NE KADAR SÜREDİR BU İŞTE OLDUĞUMUZU VE ERYAMANI NE KADAR SUREDIR TANIDIGIMIZI ANLAT -->
-        <i class="fas fa-flask fa-6x flexbox-item"data-aos-duration="1000" data-aos="fade-right"></i>
-        <i class="fas fa-search fa-6x flexbox-item"data-aos-duration="1000" data-aos="fade-up"></i>
-        <i class="fas fa-handshake fa-6x flexbox-item"data-aos-duration="1000" data-aos="fade-up"></i>
-        <i class="fab fa-creative-commons-by fa-6x flexbox-item"data-aos-duration="1000" data-aos="fade-left"></i>
-
-    </div>
-    <footer class="footer">
-        <div class="footer-div">
-            <a href="#" class="footer-anchor">
-                <i class="fab fa-facebook-square fa-2x text-center"></i>
-            </a>
-            <a href="#" class="footer-anchor">
-                <i class="fab fa-twitter-square fa-2x"></i>
-            </a>
-            <a href="#" class="footer-anchor">
-                <i class="fab fa-instagram fa-2x"></i>
-            </a>
-            <a href="#" class="footer-anchor">
-                <i class="fas fa-phone-square fa-2x"></i>
-            </a>
-        </div>
-
-    </footer>
     <a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a>
+    <footer class="footer">
+            <a href="#" class="footer-anchor alpha">
+                    <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="footer-anchor">
+                    <i class="fab fa-twitter alpha"></i>
+            </a>
+            <a href="#" class="footer-anchor">
+            <i class="fas fa-phone alpha"></i>
+            </a>
+    </footer>
     <div class="bottom-explanation">
         <span class="copyright">
             Copyright <i class="far fa-copyright"></i> 2019
@@ -231,6 +277,38 @@
                 scrollTop: 0 // Scroll to top of body
             }, 500);
         });
+    </script>
+    <script>
+        $(window).scroll(function () {
+            $(".top").css("opacity", 1 - $(window).scrollTop() / 900);
+        });
+    </script>
+    <script>
+    var $item = $('.carousel-item'); 
+var $wHeight = $(window).height();
+$item.eq(0).addClass('active');
+$item.height($wHeight); 
+$item.addClass('full-screen');
+
+$('.carousel img').each(function() {
+  var $src = $(this).attr('src');
+  var $color = $(this).attr('data-color');
+  $(this).parent().css({
+    'background-image' : 'url(' + $src + ')',
+    'background-color' : $color
+  });
+  $(this).remove();
+});
+
+$(window).on('resize', function (){
+  $wHeight = $(window).height();
+  $item.height($wHeight);
+});
+
+$('.carousel').carousel({
+  interval: 6000,
+  pause: "false"
+});
     </script>
 </body>
 
